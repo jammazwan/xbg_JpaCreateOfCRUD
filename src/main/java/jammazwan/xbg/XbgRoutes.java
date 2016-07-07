@@ -1,6 +1,9 @@
 package jammazwan.xbg;
 
 import org.apache.camel.builder.RouteBuilder;
+import org.apache.camel.dataformat.bindy.csv.BindyCsvDataFormat;
+
+import jammazwan.entity.City;
 
 public class XbgRoutes extends RouteBuilder {
 
